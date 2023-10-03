@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="active"><span>Home</span> </div>
+        <div><span>Blog</span> </div>
+        <div>Internet</div>
+        <div class="service">
+           <span>Service</span> 
+           <ul>
+               <li>Service 1</li>
+               <li>Service 2</li>
+               <li>Service 3</li>
+           </ul>
+        </div>
+        <div><span>Contact</span> </div>
+    </div>
+<br><br>
+
+
+
+<div class="container">
+    <div class="tip-header">
+        <h1>TIP CALCULATOR</h1>
+    </div>
+    <div class="tip-content">
+        <div class="tip-content-1">
+            <h3>How Much Was Your Bill?</h3>
+            <div class="tip-input-div">
+                <i>S</i>
+                <input type="number" step="0.1" class="tip-intput">
+            </div>
+        </div>        
+        <div class="tip-content-1 ">
+            <h3>How Many People Sharing The Bill?</h3>
+            <div class="tip-input-div">
+                <i>P</i>
+                <input type="number" class="tip-intput-2">
+            </div>
+        </div>        
+        <div class="tip-content-1">
+            <h3>How Was Your Service</h3>
+            <select name="" class="select">
+                <option value="0">Choose...</option>
+            </select>
+        </div>
+    </div>
+    <div class="btn-div">
+        <button class="btn">Calculate</button>        
+    </div>
+    <div class="output">
+       <img src="./photo/loading.gif">
+       <span></span>
+    </div>
+
+</div>
+
+<script src="script/app.js"></script>
+</body>
+</html>
